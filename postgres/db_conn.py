@@ -6,7 +6,8 @@ import os
 
 import pandas as pd
 
-password = os.environ['PG_PASSWORD']  # Hard code you password if you want to make it work.
+# Follow readme file to set up this environment variable!
+password = os.environ['PG_PASSWORD']
 
 
 # Re-use of connection
